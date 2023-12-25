@@ -1,0 +1,1015 @@
+Test (2A): initial election ...
+2023/12/25 20:48:42 Peer 2 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:42 Peer 2 begins election, Term = 1 timeout = 329ms
+2023/12/25 20:48:42 Peer 0: state = Follower Term = 1 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:42 Peer 1: state = Follower Term = 1 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:42 Peer 2 is sending request vote, Term = 1, state = Candidate
+2023/12/25 20:48:42 Peer 1 votes for Peer 2, Term = 1, voteCount = 1
+2023/12/25 20:48:42 Peer 2 becomes leader, Term = 1, voteCount = 2, count of peers = 3
+2023/12/25 20:48:42 Peer 2 is leader: Term = 1
+2023/12/25 20:48:42 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:42 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 is leader: Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:43 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:43 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 is leader: Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:44 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:44 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 is leader: Term = 1
+2023/12/25 20:48:45 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:45 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:45 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 is leader: Term = 1
+2023/12/25 20:48:45 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:45 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:45 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 is leader: Term = 1
+2023/12/25 20:48:45 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:45 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:45 Peer 0 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:45 Peer 2 is leader: Term = 1
+2023/12/25 20:48:45 Peer 0 timeout elapses: state = Follower Term = 1 
+2023/12/25 20:48:45 Peer 0 begins election, Term = 2 timeout = 538ms
+  ... Passed --   3.1  3   46    9656    0
+2023/12/25 20:48:45 Peer 2: state = Follower Term = 2 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:45 Peer 0 is sending request vote, Term = 2, state = Candidate
+2023/12/25 20:48:45 Peer 2 votes for Peer 0, Term = 2, voteCount = 1
+2023/12/25 20:48:45 Peer 0 becomes leader, Term = 2, voteCount = 2, count of peers = 3
+2023/12/25 20:48:45 Peer 1: state = Follower Term = 2 votedFor = -1 voteCount = 0 
+Test (2A): election after network failure ...
+2023/12/25 20:48:46 Peer 0 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:46 Peer 0 begins election, Term = 1 timeout = 460ms
+2023/12/25 20:48:46 Peer 2: state = Follower Term = 1 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:46 Peer 0 is sending request vote, Term = 1, state = Candidate
+2023/12/25 20:48:46 Peer 1: state = Follower Term = 1 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:46 Peer 2 votes for Peer 0, Term = 1, voteCount = 1
+2023/12/25 20:48:46 Peer 0 becomes leader, Term = 1, voteCount = 2, count of peers = 3
+2023/12/25 20:48:46 Peer 0 is leader: Term = 1
+2023/12/25 20:48:46 Peer 0 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:46 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:46 Peer 0 send AppendEntries to Peer 2, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:46 Peer 2 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:46 Peer 0 is leader: Term = 1
+2023/12/25 20:48:46 Peer 0 send AppendEntries to Peer 1, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:46 Peer 1 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:46 Peer 0 send AppendEntries to Peer 2, state = Leader, leader's term = 1, server's term = 1
+2023/12/25 20:48:46 Peer 2 recognizes the leader Peer 1 as legitimate, Term = 1
+2023/12/25 20:48:46 Peer 0 is leader: Term = 1
+2023/12/25 20:48:46 Peer 2 timeout elapses: state = Follower Term = 1 
+2023/12/25 20:48:46 Peer 1 timeout elapses: state = Follower Term = 1 
+2023/12/25 20:48:46 Peer 0 is leader: Term = 1
+2023/12/25 20:48:46 Peer 1 begins election, Term = 2 timeout = 324ms
+2023/12/25 20:48:46 Peer 2 begins election, Term = 2 timeout = 297ms
+2023/12/25 20:48:46 Peer 0 is leader: Term = 1
+2023/12/25 20:48:47 Peer 2 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:47 Peer 2 begins election, Term = 3 timeout = 374ms
+2023/12/25 20:48:47 Peer 1 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:47 Peer 1 begins election, Term = 3 timeout = 340ms
+2023/12/25 20:48:47 Peer 2 is sending request vote, Term = 3, state = Candidate
+2023/12/25 20:48:47 Peer 1 is sending request vote, Term = 3, state = Candidate
+2023/12/25 20:48:47 Peer 0 is leader: Term = 1
+2023/12/25 20:48:47 Peer 0 is leader: Term = 1
+2023/12/25 20:48:47 Peer 0 is leader: Term = 1
+2023/12/25 20:48:47 Peer 1 timeout elapses: state = Candidate Term = 3 
+2023/12/25 20:48:47 Peer 1 begins election, Term = 4 timeout = 509ms
+2023/12/25 20:48:47 Peer 2: state = Follower Term = 4 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:47 Peer 1 is sending request vote, Term = 4, state = Candidate
+2023/12/25 20:48:47 Peer 2 votes for Peer 1, Term = 4, voteCount = 1
+2023/12/25 20:48:47 Peer 1 becomes leader, Term = 4, voteCount = 2, count of peers = 3
+2023/12/25 20:48:47 Peer 1 is leader: Term = 4
+2023/12/25 20:48:47 Peer 1 send AppendEntries to Peer 2, state = Leader, leader's term = 4, server's term = 4
+2023/12/25 20:48:47 Peer 2 recognizes the leader Peer 4 as legitimate, Term = 4
+2023/12/25 20:48:48 Peer 1 is leader: Term = 4
+2023/12/25 20:48:48 Peer 2 timeout elapses: state = Follower Term = 4 
+2023/12/25 20:48:48 Peer 2 begins election, Term = 5 timeout = 471ms
+2023/12/25 20:48:48 Peer 0 is leader: Term = 1
+2023/12/25 20:48:48 Peer 1 is leader: Term = 4
+2023/12/25 20:48:48 Peer 0 is leader: Term = 1
+2023/12/25 20:48:48 Peer 0 is leader: Term = 1
+2023/12/25 20:48:48 Peer 1 is leader: Term = 4
+2023/12/25 20:48:48 Peer 0 is leader: Term = 1
+2023/12/25 20:48:48 Peer 1 is leader: Term = 4
+2023/12/25 20:48:48 Peer 0 is leader: Term = 1
+2023/12/25 20:48:49 Peer 1 is leader: Term = 4
+2023/12/25 20:48:49 Peer 2 timeout elapses: state = Candidate Term = 5 
+2023/12/25 20:48:49 Peer 2 begins election, Term = 6 timeout = 355ms
+2023/12/25 20:48:49 Peer 0 is leader: Term = 1
+2023/12/25 20:48:49 Peer 1 is leader: Term = 4
+--- FAIL: TestReElection2A (4.72s)
+    config.go:481: expected no leader among connected servers, but 0 claims to be leader
+Test (2A): multiple elections ...
+2023/12/25 20:48:50 Peer 5 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:50 Peer 5 begins election, Term = 1 timeout = 416ms
+2023/12/25 20:48:51 Peer 0 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:51 Peer 4 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:51 Peer 4 begins election, Term = 1 timeout = 399ms
+2023/12/25 20:48:51 Peer 2 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:51 Peer 3: state = Follower Term = 1 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:51 Peer 5 is sending request vote, Term = 1, state = Candidate
+2023/12/25 20:48:51 Peer 3 votes for Peer 5, Term = 1, voteCount = 1
+2023/12/25 20:48:51 Peer 5 is sending request vote, Term = 1, state = Candidate
+2023/12/25 20:48:51 Peer 1: state = Follower Term = 1 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:51 Peer 2 begins election, Term = 1 timeout = 387ms
+2023/12/25 20:48:51 Peer 0 begins election, Term = 1 timeout = 495ms
+2023/12/25 20:48:51 Peer 5 is sending request vote, Term = 1, state = Candidate
+2023/12/25 20:48:51 Peer 1 votes for Peer 5, Term = 1, voteCount = 2
+2023/12/25 20:48:51 Peer 5 timeout elapses: state = Candidate Term = 1 
+2023/12/25 20:48:51 Peer 5 begins election, Term = 2 timeout = 503ms
+2023/12/25 20:48:51 Peer 2 timeout elapses: state = Candidate Term = 1 
+2023/12/25 20:48:51 Peer 2 begins election, Term = 2 timeout = 529ms
+2023/12/25 20:48:51 Peer 3 timeout elapses: state = Follower Term = 1 
+2023/12/25 20:48:51 Peer 3 begins election, Term = 2 timeout = 280ms
+2023/12/25 20:48:51 Peer 4 timeout elapses: state = Candidate Term = 1 
+2023/12/25 20:48:51 Peer 4 begins election, Term = 2 timeout = 526ms
+2023/12/25 20:48:51 Peer 6 timeout elapses: state = Follower Term = 0 
+2023/12/25 20:48:51 Peer 6 begins election, Term = 1 timeout = 421ms
+2023/12/25 20:48:51 Peer 1 timeout elapses: state = Follower Term = 1 
+2023/12/25 20:48:51 Peer 1 begins election, Term = 2 timeout = 342ms
+2023/12/25 20:48:52 Peer 6: state = Follower Term = 2 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:52 Peer 5 is sending request vote, Term = 2, state = Candidate
+2023/12/25 20:48:52 Peer 5 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:52 Peer 3 is sending request vote, Term = 2, state = Candidate
+2023/12/25 20:48:51 Peer 0: state = Follower Term = 2 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:52 Peer 4 is sending request vote, Term = 2, state = Candidate
+2023/12/25 20:48:52 Peer 2 is sending request vote, Term = 2, state = Candidate
+2023/12/25 20:48:52 Peer 1 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:52 Peer 5 begins election, Term = 3 timeout = 306ms
+2023/12/25 20:48:52 Peer 3 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:52 Peer 4 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:52 Peer 2 is sending request vote, Term = 2, state = Candidate
+2023/12/25 20:48:52 Peer 1 begins election, Term = 3 timeout = 461ms
+2023/12/25 20:48:53 Peer 3 begins election, Term = 3 timeout = 265ms
+2023/12/25 20:48:53 Peer 6 timeout elapses: state = Follower Term = 2 
+2023/12/25 20:48:53 Peer 4 begins election, Term = 3 timeout = 265ms
+2023/12/25 20:48:53 Peer 2 timeout elapses: state = Candidate Term = 2 
+2023/12/25 20:48:53 Peer 4 timeout elapses: state = Candidate Term = 3 
+2023/12/25 20:48:53 Peer 4 begins election, Term = 4 timeout = 428ms
+2023/12/25 20:48:53 Peer 2 begins election, Term = 3 timeout = 277ms
+2023/12/25 20:48:53 Peer 6 begins election, Term = 3 timeout = 536ms
+2023/12/25 20:48:53 Peer 2 timeout elapses: state = Candidate Term = 3 
+2023/12/25 20:48:53 Peer 2 begins election, Term = 4 timeout = 413ms
+2023/12/25 20:48:53 Peer 1 timeout elapses: state = Candidate Term = 3 
+2023/12/25 20:48:53 Peer 1 begins election, Term = 4 timeout = 284ms
+2023/12/25 20:48:53 Peer 3 is sending request vote, Term = 3, state = Candidate
+2023/12/25 20:48:53 Peer 6 timeout elapses: state = Candidate Term = 3 
+2023/12/25 20:48:53 Peer 6 begins election, Term = 4 timeout = 315ms
+2023/12/25 20:48:53 Peer 3 is sending request vote, Term = 3, state = Candidate
+2023/12/25 20:48:53 Peer 5 timeout elapses: state = Candidate Term = 3 
+2023/12/25 20:48:53 Peer 5 begins election, Term = 4 timeout = 437ms
+2023/12/25 20:48:53 Peer 3 is sending request vote, Term = 3, state = Candidate
+2023/12/25 20:48:53 Peer 0 timeout elapses: state = Follower Term = 2 
+2023/12/25 20:48:53 Peer 0 begins election, Term = 3 timeout = 499ms
+2023/12/25 20:48:53 Peer 3 timeout elapses: state = Follower Term = 4 
+2023/12/25 20:48:53 Peer 3 begins election, Term = 5 timeout = 418ms
+2023/12/25 20:48:54 Peer 0: state = Follower Term = 4 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:54 Peer 2 is sending request vote, Term = 4, state = Candidate
+2023/12/25 20:48:54 Peer 0 votes for Peer 2, Term = 4, voteCount = 1
+2023/12/25 20:48:54 Peer 6 timeout elapses: state = Candidate Term = 4 
+2023/12/25 20:48:54 Peer 6 begins election, Term = 5 timeout = 463ms
+2023/12/25 20:48:54 Peer 1 timeout elapses: state = Candidate Term = 4 
+2023/12/25 20:48:54 Peer 1 begins election, Term = 5 timeout = 398ms
+2023/12/25 20:48:54 Peer 2 is sending request vote, Term = 4, state = Candidate
+2023/12/25 20:48:54 Peer 5 is sending request vote, Term = 4, state = Candidate
+2023/12/25 20:48:54 Peer 5 is sending request vote, Term = 4, state = Candidate
+2023/12/25 20:48:54 Peer 4 timeout elapses: state = Candidate Term = 4 
+2023/12/25 20:48:54 Peer 4 begins election, Term = 5 timeout = 476ms
+2023/12/25 20:48:54 Peer 2 is sending request vote, Term = 4, state = Candidate
+2023/12/25 20:48:54 Peer 3 timeout elapses: state = Candidate Term = 5 
+2023/12/25 20:48:55 Peer 3 begins election, Term = 6 timeout = 308ms
+2023/12/25 20:48:54 Peer 5: state = Follower Term = 5 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:54 Peer 0 timeout elapses: state = Follower Term = 4 
+2023/12/25 20:48:54 Peer 6 timeout elapses: state = Candidate Term = 5 
+2023/12/25 20:48:54 Peer 1 timeout elapses: state = Candidate Term = 5 
+2023/12/25 20:48:54 Peer 2 timeout elapses: state = Follower Term = 5 
+2023/12/25 20:48:54 Peer 4 timeout elapses: state = Candidate Term = 5 
+2023/12/25 20:48:55 Peer 0 begins election, Term = 5 timeout = 337ms
+2023/12/25 20:48:55 Peer 6 begins election, Term = 6 timeout = 333ms
+2023/12/25 20:48:55 Peer 1 begins election, Term = 6 timeout = 438ms
+2023/12/25 20:48:55 Peer 2 begins election, Term = 6 timeout = 374ms
+2023/12/25 20:48:55 Peer 4 begins election, Term = 6 timeout = 402ms
+2023/12/25 20:48:55 Peer 0: state = Follower Term = 6 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:55 Peer 3 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 0 votes for Peer 3, Term = 6, voteCount = 1
+2023/12/25 20:48:55 Peer 5: state = Follower Term = 6 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:55 Peer 3 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 5 votes for Peer 3, Term = 6, voteCount = 2
+2023/12/25 20:48:55 Peer 2 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 2 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 1 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 3 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 6 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 1 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 4 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 2 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:56 Peer 4 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 6 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 3 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:55 Peer 0 timeout elapses: state = Follower Term = 6 
+2023/12/25 20:48:55 Peer 5 timeout elapses: state = Follower Term = 6 
+2023/12/25 20:48:56 Peer 6 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:56 Peer 2 timeout elapses: state = Candidate Term = 6 
+2023/12/25 20:48:56 Peer 3 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:56 Peer 6 timeout elapses: state = Candidate Term = 6 
+2023/12/25 20:48:56 Peer 6 begins election, Term = 7 timeout = 373ms
+2023/12/25 20:48:56 Peer 5 begins election, Term = 7 timeout = 520ms
+2023/12/25 20:48:56 Peer 2 begins election, Term = 7 timeout = 271ms
+2023/12/25 20:48:56 Peer 0 begins election, Term = 7 timeout = 274ms
+2023/12/25 20:48:56 Peer 1 timeout elapses: state = Candidate Term = 6 
+2023/12/25 20:48:56 Peer 1 begins election, Term = 7 timeout = 458ms
+2023/12/25 20:48:56 Peer 0 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 5 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 4 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:56 Peer 4 is sending request vote, Term = 6, state = Candidate
+2023/12/25 20:48:56 Peer 0 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 2 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 5 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 4: state = Follower Term = 7 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:56 Peer 6 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 6 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 3 timeout elapses: state = Candidate Term = 6 
+2023/12/25 20:48:56 Peer 3 begins election, Term = 7 timeout = 355ms
+2023/12/25 20:48:56 Peer 1 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 6 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 3 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:57 Peer 3 timeout elapses: state = Candidate Term = 7 
+2023/12/25 20:48:57 Peer 3 begins election, Term = 8 timeout = 327ms
+2023/12/25 20:48:57 Peer 6 timeout elapses: state = Candidate Term = 7 
+2023/12/25 20:48:57 Peer 6 begins election, Term = 8 timeout = 357ms
+2023/12/25 20:48:56 Peer 0 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 1 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:56 Peer 2 timeout elapses: state = Candidate Term = 7 
+2023/12/25 20:48:57 Peer 0 timeout elapses: state = Candidate Term = 7 
+2023/12/25 20:48:57 Peer 0 begins election, Term = 8 timeout = 464ms
+2023/12/25 20:48:57 Peer 1 timeout elapses: state = Candidate Term = 7 
+2023/12/25 20:48:57 Peer 1 begins election, Term = 8 timeout = 534ms
+2023/12/25 20:48:56 Peer 5 is sending request vote, Term = 7, state = Candidate
+2023/12/25 20:48:57 Peer 5 timeout elapses: state = Candidate Term = 7 
+2023/12/25 20:48:57 Peer 5 begins election, Term = 8 timeout = 376ms
+2023/12/25 20:48:57 Peer 2 begins election, Term = 8 timeout = 395ms
+2023/12/25 20:48:57 Peer 4 timeout elapses: state = Follower Term = 7 
+2023/12/25 20:48:57 Peer 4 begins election, Term = 8 timeout = 542ms
+2023/12/25 20:48:58 Peer 3 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 2 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 2 begins election, Term = 9 timeout = 422ms
+2023/12/25 20:48:58 Peer 3 begins election, Term = 9 timeout = 280ms
+2023/12/25 20:48:58 Peer 6 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 6 begins election, Term = 9 timeout = 318ms
+2023/12/25 20:48:58 Peer 0 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 0 begins election, Term = 9 timeout = 359ms
+2023/12/25 20:48:58 Peer 5 is sending request vote, Term = 8, state = Candidate
+2023/12/25 20:48:58 Peer 4 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 4 begins election, Term = 9 timeout = 538ms
+2023/12/25 20:48:58 Peer 5 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 5 begins election, Term = 9 timeout = 543ms
+2023/12/25 20:48:58 Peer 1 timeout elapses: state = Candidate Term = 8 
+2023/12/25 20:48:58 Peer 1 begins election, Term = 9 timeout = 499ms
+2023/12/25 20:48:58 Peer 3 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 6 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 3 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 6 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 6 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 6 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:59 Peer 6 begins election, Term = 10 timeout = 428ms
+2023/12/25 20:48:58 Peer 3 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 0 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 2 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:58 Peer 1 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:58 Peer 4 is sending request vote, Term = 9, state = Candidate
+2023/12/25 20:48:59 Peer 5 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:59 Peer 0 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:59 Peer 0 begins election, Term = 10 timeout = 320ms
+2023/12/25 20:48:59 Peer 5 begins election, Term = 10 timeout = 389ms
+2023/12/25 20:48:59 Peer 1 begins election, Term = 10 timeout = 479ms
+2023/12/25 20:48:59 Peer 4 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:59 Peer 4 begins election, Term = 10 timeout = 334ms
+2023/12/25 20:48:59 Peer 3 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:59 Peer 3 begins election, Term = 10 timeout = 344ms
+2023/12/25 20:48:59 Peer 2 timeout elapses: state = Candidate Term = 9 
+2023/12/25 20:48:59 Peer 2 begins election, Term = 10 timeout = 290ms
+2023/12/25 20:48:59 Peer 5 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 4 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 2 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 5 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 3 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 0 timeout elapses: state = Candidate Term = 10 
+2023/12/25 20:48:59 Peer 0 begins election, Term = 11 timeout = 412ms
+2023/12/25 20:48:59 Peer 4 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 3 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 4 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 3 timeout elapses: state = Candidate Term = 10 
+2023/12/25 20:48:59 Peer 3 begins election, Term = 11 timeout = 520ms
+2023/12/25 20:48:59 Peer 5 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 2 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 5 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 timeout elapses: state = Candidate Term = 10 
+2023/12/25 20:48:59 Peer 6 begins election, Term = 11 timeout = 295ms
+2023/12/25 20:48:59 Peer 5 timeout elapses: state = Candidate Term = 10 
+2023/12/25 20:48:59 Peer 5 begins election, Term = 11 timeout = 539ms
+2023/12/25 20:48:59 Peer 2 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 1: state = Follower Term = 11 votedFor = -1 voteCount = 0 
+2023/12/25 20:48:59 Peer 3 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:48:59 Peer 0 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:48:59 Peer 5 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:48:59 Peer 2 is sending request vote, Term = 10, state = Candidate
+2023/12/25 20:48:59 Peer 6 timeout elapses: state = Candidate Term = 11 
+2023/12/25 20:48:59 Peer 4 timeout elapses: state = Candidate Term = 10 
+2023/12/25 20:49:01 Peer 4 begins election, Term = 11 timeout = 318ms
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:49:01 Peer 0 timeout elapses: state = Candidate Term = 11 
+2023/12/25 20:49:01 Peer 0 begins election, Term = 12 timeout = 376ms
+2023/12/25 20:49:01 Peer 6 begins election, Term = 12 timeout = 347ms
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:49:01 Peer 2 timeout elapses: state = Candidate Term = 10 
+2023/12/25 20:49:01 Peer 2 begins election, Term = 11 timeout = 532ms
+2023/12/25 20:49:01 Peer 4 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:49:01 Peer 3 timeout elapses: state = Candidate Term = 11 
+2023/12/25 20:49:01 Peer 0 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 timeout elapses: state = Candidate Term = 11 
+2023/12/25 20:49:01 Peer 1: state = Follower Term = 12 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 2 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:49:01 Peer 4 is sending request vote, Term = 11, state = Candidate
+2023/12/25 20:49:01 Peer 5 begins election, Term = 12 timeout = 273ms
+2023/12/25 20:49:01 Peer 0 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 1 votes for Peer 0, Term = 12, voteCount = 1
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 2: state = Follower Term = 12 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 0 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 2 votes for Peer 0, Term = 12, voteCount = 2
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 4: state = Follower Term = 12 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 0 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 4 votes for Peer 6, Term = 12, voteCount = 1
+2023/12/25 20:49:01 Peer 3 begins election, Term = 12 timeout = 429ms
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 0 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 0 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 3 is sending request vote, Term = 12, state = Candidate
+2023/12/25 20:49:01 Peer 6 timeout elapses: state = Candidate Term = 12 
+2023/12/25 20:49:01 Peer 6 begins election, Term = 13 timeout = 411ms
+2023/12/25 20:49:01 Peer 5 timeout elapses: state = Candidate Term = 12 
+2023/12/25 20:49:01 Peer 5 begins election, Term = 13 timeout = 354ms
+2023/12/25 20:49:01 Peer 4: state = Follower Term = 13 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 13, state = Candidate
+2023/12/25 20:49:01 Peer 4 votes for Peer 6, Term = 13, voteCount = 1
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 13, state = Candidate
+2023/12/25 20:49:01 Peer 3: state = Follower Term = 13 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 2: state = Follower Term = 13 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 13, state = Candidate
+2023/12/25 20:49:01 Peer 3 votes for Peer 5, Term = 13, voteCount = 1
+2023/12/25 20:49:01 Peer 6 is sending request vote, Term = 13, state = Candidate
+2023/12/25 20:49:01 Peer 1: state = Follower Term = 13 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 13, state = Candidate
+2023/12/25 20:49:01 Peer 2 votes for Peer 5, Term = 13, voteCount = 2
+2023/12/25 20:49:01 Peer 5 is sending request vote, Term = 13, state = Candidate
+2023/12/25 20:49:01 Peer 1 votes for Peer 5, Term = 13, voteCount = 3
+2023/12/25 20:49:01 Peer 5 becomes leader, Term = 13, voteCount = 4, count of peers = 7
+2023/12/25 20:49:01 Peer 5 is leader: Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 6, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 6 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 2, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 2 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 13, server's term = 12
+2023/12/25 20:49:01 Peer 0 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 is leader: Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 1, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 1 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 4 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 0: state = Follower Term = 13 votedFor = 5 voteCount = 0 
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 3, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 3 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 4 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 is leader: Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 0 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 3, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 3 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:01 Peer 4 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:01 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:02 Peer 4 timeout elapses: state = Follower Term = 13 
+2023/12/25 20:49:02 Peer 4 begins election, Term = 14 timeout = 446ms
+2023/12/25 20:49:02 Peer 1 timeout elapses: state = Follower Term = 13 
+2023/12/25 20:49:02 Peer 1 begins election, Term = 14 timeout = 260ms
+2023/12/25 20:49:02 Peer 2 timeout elapses: state = Follower Term = 13 
+2023/12/25 20:49:02 Peer 2 begins election, Term = 14 timeout = 370ms
+2023/12/25 20:49:02 Peer 6 timeout elapses: state = Follower Term = 13 
+2023/12/25 20:49:02 Peer 6 begins election, Term = 14 timeout = 290ms
+2023/12/25 20:49:02 Peer 0 timeout elapses: state = Follower Term = 13 
+2023/12/25 20:49:02 Peer 0 begins election, Term = 14 timeout = 447ms
+2023/12/25 20:49:02 Peer 3 timeout elapses: state = Follower Term = 13 
+2023/12/25 20:49:02 Peer 3 begins election, Term = 14 timeout = 517ms
+2023/12/25 20:49:02 Peer 4 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 0 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 4 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 3 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 3 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 0 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:02 Peer 5 send AppendEntries to Peer 3, state = Leader, leader's term = 13, server's term = 13
+2023/12/25 20:49:02 Peer 3 recognizes the leader Peer 13 as legitimate, Term = 13
+2023/12/25 20:49:02 Peer 5 is leader: Term = 13
+2023/12/25 20:49:02 Peer 5: state = Follower Term = 14 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:02 Peer 3 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 4 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:02 Peer 5 votes for Peer 4, Term = 14, voteCount = 1
+2023/12/25 20:49:02 Peer 0 is sending request vote, Term = 14, state = Candidate
+2023/12/25 20:49:03 Peer 1 timeout elapses: state = Candidate Term = 14 
+2023/12/25 20:49:03 Peer 1 begins election, Term = 15 timeout = 526ms
+2023/12/25 20:49:03 Peer 6 timeout elapses: state = Candidate Term = 14 
+2023/12/25 20:49:03 Peer 6 begins election, Term = 15 timeout = 342ms
+2023/12/25 20:49:03 Peer 2 timeout elapses: state = Candidate Term = 14 
+2023/12/25 20:49:03 Peer 2 begins election, Term = 15 timeout = 304ms
+2023/12/25 20:49:03 Peer 5 timeout elapses: state = Follower Term = 14 
+2023/12/25 20:49:03 Peer 5 begins election, Term = 15 timeout = 322ms
+2023/12/25 20:49:03 Peer 3: state = Follower Term = 15 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:03 Peer 4: state = Follower Term = 15 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:03 Peer 5 is sending request vote, Term = 15, state = Candidate
+2023/12/25 20:49:03 Peer 3 votes for Peer 5, Term = 15, voteCount = 1
+2023/12/25 20:49:03 Peer 0: state = Follower Term = 15 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:03 Peer 5 is sending request vote, Term = 15, state = Candidate
+2023/12/25 20:49:03 Peer 4 votes for Peer 5, Term = 15, voteCount = 2
+2023/12/25 20:49:03 Peer 5 is sending request vote, Term = 15, state = Candidate
+2023/12/25 20:49:03 Peer 0 votes for Peer 5, Term = 15, voteCount = 3
+2023/12/25 20:49:03 Peer 5 becomes leader, Term = 15, voteCount = 4, count of peers = 7
+2023/12/25 20:49:03 Peer 5 is leader: Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 4 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 3, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 3 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 0 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 is leader: Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 0 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 4 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 1, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 1 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 is leader: Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 6, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 6 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 2 timeout elapses: state = Candidate Term = 15 
+2023/12/25 20:49:03 Peer 2 begins election, Term = 16 timeout = 490ms
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 0 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 4 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 1, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 1 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 6, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 6 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 is leader: Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 6, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 6 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 1, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 1 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 4 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 0 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 is leader: Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 1, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 1 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 6, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 6 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 4, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 4 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:03 Peer 5 send AppendEntries to Peer 0, state = Leader, leader's term = 15, server's term = 15
+2023/12/25 20:49:03 Peer 0 recognizes the leader Peer 15 as legitimate, Term = 15
+2023/12/25 20:49:04 Peer 5 is leader: Term = 15
+2023/12/25 20:49:04 Peer 1 timeout elapses: state = Follower Term = 15 
+2023/12/25 20:49:04 Peer 1 begins election, Term = 16 timeout = 405ms
+2023/12/25 20:49:04 Peer 2 timeout elapses: state = Candidate Term = 16 
+2023/12/25 20:49:04 Peer 2 begins election, Term = 17 timeout = 405ms
+2023/12/25 20:49:04 Peer 6 timeout elapses: state = Follower Term = 15 
+2023/12/25 20:49:04 Peer 6 begins election, Term = 16 timeout = 443ms
+2023/12/25 20:49:04 Peer 4 timeout elapses: state = Follower Term = 15 
+2023/12/25 20:49:04 Peer 4 begins election, Term = 16 timeout = 427ms
+2023/12/25 20:49:04 Peer 0 timeout elapses: state = Follower Term = 15 
+2023/12/25 20:49:04 Peer 0 begins election, Term = 16 timeout = 364ms
+2023/12/25 20:49:04 Peer 3 timeout elapses: state = Follower Term = 15 
+2023/12/25 20:49:04 Peer 3 begins election, Term = 16 timeout = 460ms
+2023/12/25 20:49:04 Peer 6 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 3 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 1 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 1 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 0 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 6 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 1 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 1 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 6 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 5 is leader: Term = 15
+2023/12/25 20:49:05 Peer 6 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 4 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 0 timeout elapses: state = Candidate Term = 16 
+2023/12/25 20:49:05 Peer 0 begins election, Term = 17 timeout = 491ms
+2023/12/25 20:49:05 Peer 4 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 4 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 4 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 6: state = Follower Term = 17 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 0 is sending request vote, Term = 17, state = Candidate
+2023/12/25 20:49:05 Peer 6 votes for Peer 0, Term = 17, voteCount = 1
+2023/12/25 20:49:05 Peer 3 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 3 is sending request vote, Term = 16, state = Candidate
+2023/12/25 20:49:05 Peer 1: state = Follower Term = 17 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 0 is sending request vote, Term = 17, state = Candidate
+2023/12/25 20:49:05 Peer 1 votes for Peer 0, Term = 17, voteCount = 2
+2023/12/25 20:49:05 Peer 4: state = Follower Term = 17 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 0 is sending request vote, Term = 17, state = Candidate
+2023/12/25 20:49:05 Peer 4 votes for Peer 0, Term = 17, voteCount = 3
+2023/12/25 20:49:05 Peer 0 becomes leader, Term = 17, voteCount = 4, count of peers = 7
+2023/12/25 20:49:05 Peer 0 is leader: Term = 17
+2023/12/25 20:49:05 Peer 0 send AppendEntries to Peer 4, state = Leader, leader's term = 17, server's term = 17
+2023/12/25 20:49:05 Peer 4 recognizes the leader Peer 17 as legitimate, Term = 17
+2023/12/25 20:49:05 Peer 0 send AppendEntries to Peer 3, state = Leader, leader's term = 17, server's term = 17
+2023/12/25 20:49:05 Peer 3 recognizes the leader Peer 17 as legitimate, Term = 17
+2023/12/25 20:49:05 Peer 0 send AppendEntries to Peer 1, state = Leader, leader's term = 17, server's term = 17
+2023/12/25 20:49:05 Peer 1 recognizes the leader Peer 17 as legitimate, Term = 17
+2023/12/25 20:49:05 Peer 0 send AppendEntries to Peer 6, state = Leader, leader's term = 17, server's term = 17
+2023/12/25 20:49:05 Peer 6 recognizes the leader Peer 17 as legitimate, Term = 17
+2023/12/25 20:49:05 Peer 2 timeout elapses: state = Candidate Term = 17 
+2023/12/25 20:49:05 Peer 2 begins election, Term = 18 timeout = 508ms
+2023/12/25 20:49:05 Peer 5 is leader: Term = 15
+2023/12/25 20:49:05 Peer 3: state = Follower Term = 17 votedFor = 0 voteCount = 0 
+2023/12/25 20:49:05 Peer 0 is leader: Term = 17
+2023/12/25 20:49:05 Peer 0 send AppendEntries to Peer 2, state = Leader, leader's term = 17, server's term = 18
+2023/12/25 20:49:05 Peer 4 timeout elapses: state = Follower Term = 17 
+2023/12/25 20:49:05 Peer 4 begins election, Term = 18 timeout = 496ms
+2023/12/25 20:49:05 Peer 5 timeout elapses: state = Follower Term = 17 
+2023/12/25 20:49:05 Peer 5 begins election, Term = 18 timeout = 548ms
+2023/12/25 20:49:05 Peer 1: state = Follower Term = 18 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 0: state = Follower Term = 18 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 5 is sending request vote, Term = 18, state = Candidate
+2023/12/25 20:49:05 Peer 5 is sending request vote, Term = 18, state = Candidate
+2023/12/25 20:49:05 Peer 1 votes for Peer 5, Term = 18, voteCount = 1
+2023/12/25 20:49:05 Peer 6 timeout elapses: state = Follower Term = 17 
+2023/12/25 20:49:05 Peer 6 begins election, Term = 18 timeout = 484ms
+2023/12/25 20:49:05 Peer 5 is sending request vote, Term = 18, state = Candidate
+2023/12/25 20:49:05 Peer 0 votes for Peer 5, Term = 18, voteCount = 2
+2023/12/25 20:49:05 Peer 2 timeout elapses: state = Candidate Term = 18 
+2023/12/25 20:49:05 Peer 2 begins election, Term = 19 timeout = 509ms
+2023/12/25 20:49:05 Peer 1: state = Follower Term = 19 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 0: state = Follower Term = 19 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 5: state = Follower Term = 19 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:05 Peer 2 is sending request vote, Term = 19, state = Candidate
+2023/12/25 20:49:05 Peer 0 votes for Peer 2, Term = 19, voteCount = 1
+2023/12/25 20:49:05 Peer 2 is sending request vote, Term = 19, state = Candidate
+2023/12/25 20:49:05 Peer 1 votes for Peer 2, Term = 19, voteCount = 2
+2023/12/25 20:49:05 Peer 3 timeout elapses: state = Follower Term = 17 
+2023/12/25 20:49:05 Peer 3 begins election, Term = 18 timeout = 524ms
+2023/12/25 20:49:05 Peer 2 is sending request vote, Term = 19, state = Candidate
+2023/12/25 20:49:05 Peer 5 votes for Peer 2, Term = 19, voteCount = 3
+2023/12/25 20:49:05 Peer 2 becomes leader, Term = 19, voteCount = 4, count of peers = 7
+2023/12/25 20:49:05 Peer 2 is leader: Term = 19
+2023/12/25 20:49:05 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:05 Peer 0 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:05 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:05 Peer 1 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:05 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:05 Peer 5 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 4, state = Leader, leader's term = 19, server's term = 18
+2023/12/25 20:49:06 Peer 4 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 3, state = Leader, leader's term = 19, server's term = 18
+2023/12/25 20:49:06 Peer 3 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 3, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 3 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 4, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 4 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 4, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 4 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 3, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 3 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 6 timeout elapses: state = Candidate Term = 18 
+2023/12/25 20:49:06 Peer 6 begins election, Term = 19 timeout = 427ms
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 4, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 4 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 3, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 3 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 3, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 3 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 send AppendEntries to Peer 4, state = Leader, leader's term = 19, server's term = 19
+2023/12/25 20:49:06 Peer 4 recognizes the leader Peer 19 as legitimate, Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 6 timeout elapses: state = Candidate Term = 19 
+2023/12/25 20:49:06 Peer 6 begins election, Term = 20 timeout = 287ms
+2023/12/25 20:49:06 Peer 5: state = Follower Term = 20 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:06 Peer 0: state = Follower Term = 20 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:06 Peer 1: state = Follower Term = 20 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:06 Peer 6 is sending request vote, Term = 20, state = Candidate
+2023/12/25 20:49:06 Peer 0 votes for Peer 6, Term = 20, voteCount = 1
+2023/12/25 20:49:06 Peer 6 is sending request vote, Term = 20, state = Candidate
+2023/12/25 20:49:06 Peer 5 votes for Peer 6, Term = 20, voteCount = 2
+2023/12/25 20:49:06 Peer 6 is sending request vote, Term = 20, state = Candidate
+2023/12/25 20:49:06 Peer 1 votes for Peer 6, Term = 20, voteCount = 3
+2023/12/25 20:49:06 Peer 6 becomes leader, Term = 20, voteCount = 4, count of peers = 7
+2023/12/25 20:49:06 Peer 6 is leader: Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 6 is leader: Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 1 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 4 timeout elapses: state = Follower Term = 19 
+2023/12/25 20:49:06 Peer 4 begins election, Term = 20 timeout = 372ms
+2023/12/25 20:49:06 Peer 2 is leader: Term = 19
+2023/12/25 20:49:06 Peer 3 timeout elapses: state = Follower Term = 19 
+2023/12/25 20:49:06 Peer 3 begins election, Term = 20 timeout = 512ms
+2023/12/25 20:49:06 Peer 6 is leader: Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:06 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:06 Peer 4 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 2 is leader: Term = 19
+2023/12/25 20:49:07 Peer 6 is leader: Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 4 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 2 is leader: Term = 19
+2023/12/25 20:49:07 Peer 6 is leader: Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 4 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 2 is leader: Term = 19
+2023/12/25 20:49:07 Peer 6 is leader: Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 1 timeout elapses: state = Follower Term = 20 
+2023/12/25 20:49:07 Peer 1 begins election, Term = 21 timeout = 373ms
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 4 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 2 is leader: Term = 19
+2023/12/25 20:49:07 Peer 6 is leader: Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 4 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 20, server's term = 20
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 20 as legitimate, Term = 20
+2023/12/25 20:49:07 Peer 2 is leader: Term = 19
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 19, server's term = 20
+2023/12/25 20:49:07 Peer 2 timeout elapses: state = Follower Term = 20 
+2023/12/25 20:49:07 Peer 2 begins election, Term = 21 timeout = 361ms
+2023/12/25 20:49:07 Peer 0: state = Follower Term = 21 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:07 Peer 2 is sending request vote, Term = 21, state = Candidate
+2023/12/25 20:49:07 Peer 6: state = Follower Term = 21 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:07 Peer 2 is sending request vote, Term = 21, state = Candidate
+2023/12/25 20:49:07 Peer 0 votes for Peer 2, Term = 21, voteCount = 1
+2023/12/25 20:49:07 Peer 5: state = Follower Term = 21 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:07 Peer 2 is sending request vote, Term = 21, state = Candidate
+2023/12/25 20:49:07 Peer 6 votes for Peer 2, Term = 21, voteCount = 2
+2023/12/25 20:49:07 Peer 2 is sending request vote, Term = 21, state = Candidate
+2023/12/25 20:49:07 Peer 5 votes for Peer 2, Term = 21, voteCount = 3
+2023/12/25 20:49:07 Peer 2 becomes leader, Term = 21, voteCount = 4, count of peers = 7
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 3 timeout elapses: state = Candidate Term = 20 
+2023/12/25 20:49:07 Peer 3 begins election, Term = 21 timeout = 484ms
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 4 timeout elapses: state = Follower Term = 20 
+2023/12/25 20:49:07 Peer 4 begins election, Term = 21 timeout = 549ms
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 1, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 1 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 5, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 5 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 0, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 0 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 send AppendEntries to Peer 6, state = Leader, leader's term = 21, server's term = 21
+2023/12/25 20:49:07 Peer 6 recognizes the leader Peer 21 as legitimate, Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 3 timeout elapses: state = Candidate Term = 21 
+2023/12/25 20:49:07 Peer 3 begins election, Term = 22 timeout = 427ms
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:07 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 6 timeout elapses: state = Follower Term = 21 
+2023/12/25 20:49:08 Peer 6 begins election, Term = 22 timeout = 399ms
+2023/12/25 20:49:08 Peer 0: state = Follower Term = 22 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:08 Peer 1: state = Follower Term = 22 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:08 Peer 5: state = Follower Term = 22 votedFor = -1 voteCount = 0 
+2023/12/25 20:49:08 Peer 6 is sending request vote, Term = 22, state = Candidate
+2023/12/25 20:49:08 Peer 0 votes for Peer 6, Term = 22, voteCount = 1
+2023/12/25 20:49:08 Peer 6 is sending request vote, Term = 22, state = Candidate
+2023/12/25 20:49:08 Peer 1 votes for Peer 6, Term = 22, voteCount = 2
+2023/12/25 20:49:08 Peer 6 is sending request vote, Term = 22, state = Candidate
+2023/12/25 20:49:08 Peer 5 votes for Peer 6, Term = 22, voteCount = 3
+2023/12/25 20:49:08 Peer 6 becomes leader, Term = 22, voteCount = 4, count of peers = 7
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 2 is leader: Term = 21
+2023/12/25 20:49:08 Peer 4 timeout elapses: state = Candidate Term = 21 
+2023/12/25 20:49:08 Peer 4 begins election, Term = 22 timeout = 412ms
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 4 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 2, state = Leader, leader's term = 22, server's term = 21
+2023/12/25 20:49:08 Peer 2 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 3, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 3 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 3, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 3 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 2, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 2 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 4 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 2, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 2 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 3, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 3 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 4 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 4 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 2, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 2 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 3, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 3 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 is leader: Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 5, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 5 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 1, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 1 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 2, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 2 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 4, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 4 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 3, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 3 recognizes the leader Peer 22 as legitimate, Term = 22
+2023/12/25 20:49:08 Peer 6 send AppendEntries to Peer 0, state = Leader, leader's term = 22, server's term = 22
+2023/12/25 20:49:08 Peer 0 recognizes the leader Peer 22 as legitimate, Term = 22
+  ... Passed --  18.3  7 1008  158936    0
+FAIL
+exit status 1
+FAIL	6.5840/raft	26.314s
